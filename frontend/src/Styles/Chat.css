@@ -1,0 +1,91 @@
+
+.chatwindow {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* CHAT PAGE */
+.chat {
+    height: 100%;
+    box-shadow: 2px 2px 5px 3px #ccc;
+    padding: 20px;
+}
+
+.chatbox, .chatwindow, .null-chat {
+    /* background-color: #eee; */
+    height: 100%;
+}
+
+.null-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.chat-head {
+    padding: 10px;
+    font-size: 0.95em;
+    /* background-color: #eee; */
+    border: 1px solid #ddd;
+    /* margin: 10px 0; */
+    margin: 0 0 10px 0;
+    /* margin-bottom: 10px; */
+}
+
+.contacts select {
+    border-radius: 0;
+    padding: 0 auto;
+    margin-bottom: 10px;
+}
+
+.contacts .list-group-item {
+    cursor: pointer;
+    font-size: 0.8em;
+    color: #333;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-transform: lowercase;
+    border: none;
+    /* border-bottom: 1px solid #ddd; */
+    box-shadow: 1px 1px 3px 3px #eee;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+.contacts .list-group-item:hover {
+    background-color: #eee;
+}
+.contacts .list-group-item.selected {
+    background-color: lightblue;
+}
+
+.chatmsgs {
+    /* height: 100%; */
+    flex: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatmsgs .msg {
+    display: inline-block;
+    margin: 5px; padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #888;
+    align-self: flex-start;
+}
+
+.chatmsgs .msg.you{
+    background-color: lightskyblue;
+    align-self: end;
+}
+
+.msgbox { margin-top: 10px; }
+.msgbox input,
+.msgbox button {
+    border-radius: 0;
+}

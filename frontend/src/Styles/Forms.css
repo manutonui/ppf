@@ -1,0 +1,198 @@
+.login-form,
+.signup-form,
+.fgt-pwd-form {
+  padding: 50px 30px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px 2px #ccc;
+  max-width: 480px;
+  width: 100%;
+  background-color: white;
+}
+/* 
+.login-section,
+.signup-section,
+.fgt-pwd-section {
+  background-color: #eee;
+  justify-content: center;
+  align-items: center;
+} */
+
+.loginPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.alert {
+  font-size: 0.8em;
+  padding: 3px 10px;
+  display: inline-block;
+  margin-top: 10px !important;
+}
+
+.pdf-modal,
+.crud-modal {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  background-color: rgb(90, 90, 90, 0.8);
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 100%; width: 100%;
+  position: fixed;
+  z-index: 10;
+  /* background-color: pink; */
+}
+
+.modal-content {
+  /* position: absolute; */
+  /* background-color: pink; */
+  /* margin-top: 10vh; */
+  margin: 10px;
+  max-width: 840px;
+  min-width: 240px;
+  width: 100%;
+  overflow-y: auto;
+  /* padding: 20px; */
+}
+
+.modal-content form {
+  border: 10px groove lightskyblue;
+  max-height: 75vh;
+  overflow-y: auto;
+}
+
+.btn-close {
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 10px 0;
+  /* font-size: 1.5rem; */
+  align-self: center;
+}
+
+form .highlight {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.guarantor-info-section h5 {margin-top: 30px;}
+
+.filter {
+  padding: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 5px 2px #eee;
+}
+
+label {
+  font-size: 0.9em;
+  padding: 3px;
+  color: #555;
+}
+
+.clearance-form,
+.incident-form,
+.psv-form {
+  padding: 20px;
+}
+
+form {
+  /* padding: 60px 20px !important; */
+  /* max-width: 720px; */
+  background-color: white;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form input,
+form select {
+  margin-bottom: 15px;
+}
+
+.modal-content form .form-subsection-desc {
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9em;
+  box-shadow: 2px 2px 5px 3px #ccc;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-family: monospace;
+  width: 180px;
+  margin: 0 auto 20px auto;
+}
+
+.modal-content form img {
+  display: block;
+  /* margin-bottom: 30px; */
+  background-color: #ccc !important;
+  margin: 0 auto 20px auto;
+  width: 120px; height: 120px;
+  border-radius: 10%;
+}
+
+input[type="file"] {
+  max-width: 240px;
+  min-width: 180px;
+  width: 100%;
+  background-color: white;
+  display: block;
+  border: 1px solid #ccc;
+  margin: 15px auto;
+  display: none;
+}
+
+.photo-btns {
+  margin: 0; padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.camera .photo-btns {
+  /* margin: 20px 0; */
+  position: absolute;
+  bottom: 20px;
+  right: auto; left: auto;
+  align-self: center;
+}
+
+.photovid {
+  width: 100%;
+  height: 100%;
+  /* background-color: white; */
+}
+
+.camera {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 240px;
+  min-height: 240px;
+  width: 100%;
+  height: 100%;
+  /* border: 5px solid white; */
+  overflow: hidden;
+}
+
+form .image-preview {
+  text-align: center;
+}
+
+form .guarantor-info-section {
+  background-color: #eee;
+  padding: 20px;
+  margin: 15px 0;
+}
